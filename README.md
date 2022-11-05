@@ -1,6 +1,6 @@
 # PyCitySchools with Pandas Analysis
 ## Overview of School District Analysis
-Maria, a chief data scientist for a city school district, has asked me to assist her in analyzing data on student funding and students' standardized test scores. With this analysis, I will showcase trends of schools' performances, which will help the school board and superintendent make decisions regarding school budget and priorities. I will present the following deliverables:
+Maria, a chief data scientist for a city school district, has asked me to assist her in analyzing data on student funding and students' standardized test scores. With this analysis, I will showcase trends of schools' performances, which will help the school board and superintendent make decisions regarding school budget and priorities. I will analyze the dataset to discover the following deliverables:
   * Snapshot of District's Key Metrics
   * Overview of Key Metrics for each School
   * Tables for each of the Following Metrics
@@ -33,7 +33,7 @@ Maria has been notified how the reading and math scores for Thomas High School n
           * This dataframe was not affected by replacing the ninth-grade scores.
      * Scores by School Type
           * ![image](https://user-images.githubusercontent.com/107401667/200137099-da74aeff-a124-486c-ad60-04361eca70e4.png)
-          * ![Uploading image.png…]()
           * This dataframe was not affected by replacing the ninth-grade scores.
 ## Summary
-Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+Summarize four changes in the updated school district analysis 
+After replacing the reading and math scores for the ninth grade at Thomas High School with NaNs, a main change caused in the school district analysis is how the % Passings decreased in the district summary. % Passing Math decreased by 0.2, % Passing Reading decreased by 0.3, and % Overall Score decreased by 0.1. A second change in the analysis is Average Reading Score for Thomas High School increased by 0.5 in the school dataframe summary. A third change in the analysis is how the total student count for the calculations decreased. The original student count was 39,170 students and dropped to 38,709 students after removing the ninth students of Thomas High School. A fourth change of the analysis is the Averag Math Score for Thomas High School decreased by 
