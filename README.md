@@ -1,6 +1,6 @@
 # PyCitySchools with Pandas Analysis
 ## Overview of School District Analysis
-Maria, a chief data scientist for a city school district, has asked me to assist her in analyzing data on student funding and students' standardized test scores. With this analysis, I will showcase trends of schools' performances, which will help school board and superintendent in making decisions regarding school budget and priorities. I will present the following deliverables:
+Maria, a chief data scientist for a city school district, has asked me to assist her in analyzing data on student funding and students' standardized test scores. With this analysis, I will showcase trends of schools' performances, which will help the school board and superintendent make decisions regarding school budget and priorities. I will present the following deliverables:
   * Snapshot of District's Key Metrics
   * Overview of Key Metrics for each School
   * Tables for each of the Following Metrics
