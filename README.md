@@ -20,11 +20,20 @@ Maria has been notified how the reading and math scores for Thomas High School n
 * The district summary dataframe was initially delivered as the following:![image](https://user-images.githubusercontent.com/107401667/200098034-6445989a-5d96-4fc9-9811-6e592c747aa1.png) . After changing the Thomas High School ninth graders reading and math scores to NaN, the dataframe is now presented as ![image](https://user-images.githubusercontent.com/107401667/200064032-98c407f7-96c6-4d98-bb08-b6a96c8fe310.png). This change did not affect the values of Total Students, Total Students, Total Budget, & Average Reading Score. However, the following metrics all decreased by at least 0.1: Average Math Score, % Passing Math, % Passing Reading, and % Overall Passing. 
 * The school summary dataframe was initially delivered as the following: ![image](https://user-images.githubusercontent.com/107401667/200098107-83d5c2a1-c769-45f8-806f-3f1124bf4765.png) . After changing the Thomas High School ninth graders reading and math scores to NaN, the dataframe is now presented as ![image](https://user-images.githubusercontent.com/107401667/200129015-5d94a48c-8e66-457a-bdea-3578eea87ab2.png) . This change only changed the metrics of Thomas High School. The values of the following metrics decreased: Average Math Score, % Passing Math, % Passing Reading, and % Overall Passing. The value of Average Reading Score increased and the following Thomas High School metrics were not affected: School Type, Total Students, Total School Budget, & Per Student Budget.
 *  ![image](https://user-images.githubusercontent.com/107401667/200129303-c0515373-bc47-4429-bcb9-562f9e2ddde9.png) Even though replacing the ninth graders' math and reading scores decreased Thomas High School's % Overall Passing, the school's performance relative to the other schools did not change. Thomas High School still has the second highest % Overall Passing.
-
-How does replacing the ninth-grade scores affect the following:
-Math and reading scores by grade
-Scores by school spending
-Scores by school size
-Scores by school type
+* The following explains how other dataframes were affected by replacing the ninth-grade scores:
+     * Math and Reading Scores by Grade:
+          * Math: ![image](https://user-images.githubusercontent.com/107401667/200135277-9ed77d29-b2b6-455e-a154-3635a81d9d02.png)
+          * Reading: ![image](https://user-images.githubusercontent.com/107401667/200135229-ff8dd62e-3f8d-4747-ae1d-33f6225b4074.png)
+          * For both of these dataframes, the only value that changed from the original values is Thomas High School's 9th grade. In both of these, it now displays nan.
+     * Scores by School Spending
+          * ![image](https://user-images.githubusercontent.com/107401667/200136980-a4ccfab6-db37-4b72-a7c8-958a13ec4657.png) 
+          * This dataframe was not affected by replacing the ninth-grade scores.
+     * Scores by School Size
+          * ![image](https://user-images.githubusercontent.com/107401667/200137055-2189e7a4-a92e-4487-bbbd-d82501213c81.png)
+          * This dataframe was not affected by replacing the ninth-grade scores.
+     * Scores by School Type
+          * ![image](https://user-images.githubusercontent.com/107401667/200137099-da74aeff-a124-486c-ad60-04361eca70e4.png)
+          * ![Uploading image.png…]()
+          * This dataframe was not affected by replacing the ninth-grade scores.
 ## Summary
 Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
