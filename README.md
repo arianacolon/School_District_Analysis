@@ -17,7 +17,7 @@ Maria has been notified how the reading and math scores for Thomas High School n
 * Data Sources: schools_complete.csv, students_complete.csv
 * Software: Jupyter Notebook (PythonData)
 ## Results
-* The district summary dataframe was initially delivered as the following: ![image](https://user-images.githubusercontent.com/107401667/200067124-1d16fefd-daaa-4a9a-a5c0-c9b3189b1dcb.png) After changing the Thomas High School ninth graders reading and math scores to NaN, the dataframe is now presented as: ![image](https://user-images.githubusercontent.com/107401667/200064032-98c407f7-96c6-4d98-bb08-b6a96c8fe310.png). This change did not affect the values of Total Students, Total Students, Total Budget, & Average Reading Score. However, the following metrics all decreased by at least 0.1: Average Math Score, % Passing Math, % Passing Reading, and % Overall Passing. 
+* The district summary dataframe was initially delivered as the following: ![image](https://user-images.githubusercontent.com/107401667/200097809-92eae909-1184-44d0-9687-2c8ae373980f.png) After changing the Thomas High School ninth graders reading and math scores to NaN, the dataframe is now presented as: ![image](https://user-images.githubusercontent.com/107401667/200064032-98c407f7-96c6-4d98-bb08-b6a96c8fe310.png). This change did not affect the values of Total Students, Total Students, Total Budget, & Average Reading Score. However, the following metrics all decreased by at least 0.1: Average Math Score, % Passing Math, % Passing Reading, and % Overall Passing. 
 
 
 How is the school summary affected?
